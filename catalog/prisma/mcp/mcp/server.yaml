@@ -1,0 +1,14 @@
+identifier: prisma/mcp/mcp
+repo:
+  provider: github.com
+  url: https://github.com/prisma/mcp
+  name: mcp
+  owner: prisma
+server:
+  subdirectory: /
+  name: Prisma MCP Server
+  description: The Prisma MCP Server exposes local and remote tools for managing Prisma Postgres databases. Use it to create databases, run migrations, query data, and handle backups with natural language prompts.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true

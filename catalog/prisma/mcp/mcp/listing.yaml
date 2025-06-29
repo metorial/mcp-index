@@ -1,0 +1,8 @@
+description: Manage Prisma Postgres databases using natural language. Includes tools for database creation, backups, connection strings, migrations, and interactive querying through local and remote MCP servers.
+skills:
+  - Create and manage databases
+  - Execute SQL queries and introspect schemas
+  - Handle connection strings
+  - Manage backups and recovery
+  - Run Prisma migrations and CLI commands
+  - Open Prisma Studio for data exploration
