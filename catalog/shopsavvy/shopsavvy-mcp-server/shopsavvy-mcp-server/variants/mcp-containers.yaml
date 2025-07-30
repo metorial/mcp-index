@@ -1,0 +1,15 @@
+variant: mcp-containers
+implementation:
+  type: docker
+  image: shopsavvy/shopsavvy-mcp-server:latest
+  entrypoint: ["node", "dist/index.js"]
+  transport: stdio
+config:
+  requiredEnv:
+    - SHOPSAVVY_API_KEY
+  description: >-
+    Docker container implementation of ShopSavvy MCP Server.
+    Requires a ShopSavvy API key for authentication.
+  setup:
+    - "Obtain a ShopSavvy API key from https://shopsavvy.com/data"
+    - "Set the SHOPSAVVY_API_KEY environment variable"

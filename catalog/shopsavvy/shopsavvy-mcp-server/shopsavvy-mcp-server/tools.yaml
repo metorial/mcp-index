@@ -1,0 +1,82 @@
+tools:
+  - name: search_product
+    description: Search for products using various identifiers (barcode, ASIN, URL). Returns comprehensive product information including metadata, images, specifications, and basic pricing data.
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: Product search query (barcode, ASIN, URL, or product name)
+        max_results:
+          type: number
+          description: Maximum number of results to return (default 10)
+      additionalProperties: false
+  
+  - name: get_product_details
+    description: Get detailed information about a specific product including comprehensive metadata, specifications, images, and reviews.
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - product_id
+      properties:
+        product_id:
+          type: string
+          description: ShopSavvy product ID or external identifier (UPC/ASIN)
+      additionalProperties: false
+  
+  - name: get_product_pricing
+    description: Get comprehensive pricing information for a product from thousands of retailers, including current prices, availability, and shipping details.
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - product_id
+      properties:
+        product_id:
+          type: string
+          description: ShopSavvy product ID or external identifier (UPC/ASIN)
+        max_offers:
+          type: number
+          description: Maximum number of pricing offers to return (default 20)
+      additionalProperties: false
+  
+  - name: get_price_history
+    description: Get historical pricing data for a product to analyze price trends and track changes over time.
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - product_id
+      properties:
+        product_id:
+          type: string
+          description: ShopSavvy product ID or external identifier (UPC/ASIN)
+        days:
+          type: number
+          description: Number of days of price history to retrieve (default 30)
+      additionalProperties: false
+  
+  - name: create_price_alert
+    description: Set up automated price monitoring for a product with customizable alert conditions.
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - product_id
+        - target_price
+      properties:
+        product_id:
+          type: string
+          description: ShopSavvy product ID or external identifier (UPC/ASIN)
+        target_price:
+          type: number
+          description: Target price threshold for alert
+        condition:
+          type: string
+          enum: ["below", "above", "equal"]
+          description: Price condition for triggering alert (default "below")
+      additionalProperties: false
