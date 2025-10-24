@@ -1,0 +1,10 @@
+description: Integrates applications with various data sources and tools,
+  enabling standardized context sharing with large language models. Facilitates
+  access to files, databases, and APIs to simplify complex interactions and
+  automate tasks.
+skills:
+  - Integrate with external data sources
+  - Manage tool and resource interactions
+  - Standardize context sharing with LLMs
+  - Access APIs
+  - Automate workflows
