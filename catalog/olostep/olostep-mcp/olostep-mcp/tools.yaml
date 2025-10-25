@@ -1,0 +1,54 @@
+tools:
+  - name: get_webpage_content
+    description: Extract webpage content in clean markdown format with JavaScript rendering support
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - url_to_scrape
+      properties:
+        url_to_scrape:
+          type: string
+          description: The URL of the webpage to scrape
+        wait_before_scraping:
+          type: number
+          description: Wait time in milliseconds before scraping (for JavaScript rendering)
+          default: 0
+        country:
+          type: string
+          description: Country code for geo-targeted content (e.g., US, GB, CA)
+      additionalProperties: false
+  - name: get_website_urls
+    description: Search and retrieve relevant URLs from a website, sorted by relevance
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - url
+        - search_query
+      properties:
+        url:
+          type: string
+          description: The website URL to map
+        search_query:
+          type: string
+          description: Search query to sort URLs by relevance
+      additionalProperties: false
+  - name: google_search
+    description: Retrieve structured data from Google search results
+    inputSchema:
+      type: object
+      $schema: http://json-schema.org/draft-07/schema#
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: The search query to perform
+        country:
+          type: string
+          description: Country code for localized results (default US)
+          default: US
+      additionalProperties: false
+
+

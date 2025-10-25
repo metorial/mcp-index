@@ -1,0 +1,15 @@
+identifier: olostep/olostep-mcp/olostep-mcp::mcp-containers
+provider:
+  identifier: metorial/mcp-containers
+  name: Metorial - MCP Containers
+  website: https://github.com/metorial/mcp-containers
+  imageUrl: https://cdn.metorial.com/2025-03-27--14-29-32/logos/metorial/primary_logo/raw.svg
+  description: A collection of containerized MCP servers, maintained by Metorial.
+source:
+  type: npm
+  package: olostep-mcp
+  version: 1.0.7
+  provider:
+    identifier: olostep/olostep-mcp/olostep-mcp
+
+

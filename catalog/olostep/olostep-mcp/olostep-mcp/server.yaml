@@ -1,0 +1,16 @@
+identifier: olostep/olostep-mcp/olostep-mcp
+repo:
+  provider: github.com
+  url: https://github.com/olostep/olostep-mcp-server
+  name: olostep-mcp-server
+  owner: olostep
+server:
+  subdirectory: /
+  name: Olostep
+  description: Professional service to search the web, extract data from websites as markdown and discover URLs for site structure analysis.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true
+
+
