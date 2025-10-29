@@ -1,0 +1,9 @@
+description: Integrates applications with external data sources and tools to
+  provide context to language models. Standardizes interactions and automates
+  tasks across various applications using the Model Context Protocol.
+skills:
+  - Integrate with files
+  - Connect to databases
+  - Access APIs
+  - Share standardized context
+  - Manage tools and resources
