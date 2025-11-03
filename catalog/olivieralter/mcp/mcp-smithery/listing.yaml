@@ -1,0 +1,10 @@
+description: Integrates applications with external data sources and tools,
+  enabling context sharing and enhancing workflows with standardization.
+  Supports access to files, databases, and APIs to streamline complex
+  interactions and automate tasks.
+skills:
+  - Integrate with external databases
+  - Access and manipulate files
+  - Utilize APIs for data retrieval
+  - Manage tool and resource connections
+  - Simplify context sharing between applications
