@@ -1,0 +1,9 @@
+description: Integrate applications with real-world data and tools to enhance
+  workflows using language models. Enable standardized context sharing and
+  facilitate interaction with external data sources and tools.
+skills:
+  - Access files
+  - Connect to databases
+  - Utilize APIs
+  - Manage tool and resource integration
+  - Standardize context sharing between applications and LLMs
