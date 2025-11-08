@@ -1,0 +1,9 @@
+description: Integrates applications with various data sources and tools,
+  facilitating standardized context sharing between LLMs and external resources
+  for improved workflows. Supports automation of tasks and complex interactions
+  through a unified protocol.
+skills:
+  - Integrate external databases
+  - Access files and APIs
+  - Manage tools and resources
+  - Standardized context sharing
