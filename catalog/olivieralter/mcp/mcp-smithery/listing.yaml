@@ -1,0 +1,11 @@
+description: Integrate applications with external data sources and tools,
+  enabling standardized context sharing between language models and various
+  resources. Facilitate automated workflows and streamline complex interactions
+  through a unified protocol.
+skills:
+  - Access files
+  - Query databases
+  - Connect to APIs
+  - Manage tool resources
+  - Automate tasks
+  - Share contextual data with language models
