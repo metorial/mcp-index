@@ -1,0 +1,9 @@
+description: Integrate applications with real-world data and tools through
+  standardized context sharing for Large Language Models (LLMs). Facilitate
+  connections to external data sources like files, databases, and APIs to
+  enhance workflows and automate tasks.
+skills:
+  - Standardized context sharing between applications and LLMs
+  - Integration with external data sources
+  - Tool and resource management
+  - Protocol specifications and implementations
