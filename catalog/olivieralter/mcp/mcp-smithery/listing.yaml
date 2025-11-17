@@ -1,0 +1,9 @@
+description: Integrates applications with real-world data and tools through a
+  standardized approach, enabling access to files, databases, and APIs while
+  leveraging language models to automate tasks and simplify interactions.
+skills:
+  - Access external data sources
+  - Integrate with APIs
+  - Manage tools and resources
+  - Standardize context sharing between applications and LLMs
+  - Automate workflows
