@@ -1,0 +1,10 @@
+description: Integrates applications with various external data sources and
+  tools, enabling standardized context sharing with large language models. It
+  facilitates seamless connections to files, databases, and APIs to enhance
+  workflows and automate tasks.
+skills:
+  - Access files
+  - Connect to databases
+  - Integrate with APIs
+  - Share context with language models
+  - Manage tools and resources
