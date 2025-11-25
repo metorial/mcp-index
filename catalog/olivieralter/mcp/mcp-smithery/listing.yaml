@@ -1,0 +1,9 @@
+description: Enables integration of applications with various data sources and
+  tools, facilitating standardized context sharing to enhance workflows using
+  language models. Supports automation of tasks and management of tools and
+  resources.
+skills:
+  - Integrate with external data sources
+  - Share context with language models
+  - Manage tools and resources
+  - Automate workflows
