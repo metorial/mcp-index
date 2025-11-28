@@ -1,0 +1,10 @@
+description: Integrates applications with real-world data and tools using a
+  standardized approach to share context between large language models and
+  external data sources. Enables management of tools and resources alongside
+  protocol specifications for seamless interactions and task automation.
+skills:
+  - Access files
+  - Connect to databases
+  - Interact with APIs
+  - Share context with LLMs
+  - Automate tasks
