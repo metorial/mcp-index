@@ -1,0 +1,10 @@
+description: Integrates applications with various data sources and tools,
+  facilitating context sharing and resource management for Large Language Models
+  (LLMs). Automates complex tasks and interactions through a standardized
+  protocol that connects LLMs with external files, databases, and APIs.
+skills:
+  - Access files
+  - Connect to databases
+  - Interact with APIs
+  - Manage tools and resources
+  - Standardize context sharing
