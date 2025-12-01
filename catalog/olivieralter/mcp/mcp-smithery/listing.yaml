@@ -1,0 +1,8 @@
+description: Facilitates standardized context sharing between applications and
+  large language models (LLMs), allowing integration with external files,
+  databases, and APIs.
+skills:
+  - Standardized context sharing
+  - Integration with external data sources
+  - Tool and resource management
+  - Protocol specification handling
