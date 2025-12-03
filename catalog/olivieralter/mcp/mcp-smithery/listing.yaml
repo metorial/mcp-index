@@ -1,0 +1,9 @@
+description: Integrates applications with real-world data sources and tools
+  using a standardized protocol for context sharing between large language
+  models and external resources. Facilitates automation and enhances workflows
+  by allowing access to files, databases, and APIs.
+skills:
+  - Standardized context sharing
+  - Integration with external data sources
+  - Tool and resource management
+  - Protocol specifications and implementations
