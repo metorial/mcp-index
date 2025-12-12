@@ -1,0 +1,8 @@
+description: Connect applications with external data sources, enabling
+  standardized context sharing for Large Language Models. Integrate tools,
+  files, and databases to simplify complex interactions and automate tasks.
+skills:
+  - Integrate with external databases
+  - Access and manage APIs
+  - Share context between applications and LLMs
+  - Manage tools and resources
