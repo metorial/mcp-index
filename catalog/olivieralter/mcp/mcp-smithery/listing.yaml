@@ -1,0 +1,9 @@
+description: Facilitates integration with real-world data and tools, enabling
+  seamless context sharing between applications and Large Language Models
+  (LLMs). Supports access to files, databases, and APIs to enhance workflows and
+  automate tasks.
+skills:
+  - Integrate with external data sources
+  - Manage tools and resources
+  - Share context between applications and LLMs
+  - Automate tasks using standardized protocols
