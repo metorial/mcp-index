@@ -1,0 +1,10 @@
+description: Integrates applications with external data sources and tools,
+  enabling standardized context sharing with Large Language Models (LLMs).
+  Automates complex interactions and streamlines workflows using the Model
+  Context Protocol (MCP).
+skills:
+  - Access files
+  - Integrate with databases
+  - Connect to APIs
+  - Manage tools and resources
+  - Share context with LLMs
