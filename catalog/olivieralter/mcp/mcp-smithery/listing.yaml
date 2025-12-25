@@ -1,0 +1,10 @@
+description: Facilitates the connection between language models and external
+  data sources or tools, enabling standardized context sharing and automation of
+  complex interactions. Supports access to files, databases, and APIs to enhance
+  workflows with real-world data.
+skills:
+  - Access files
+  - Integrate with databases
+  - Connect to APIs
+  - Manage tools and resources
+  - Automate tasks
