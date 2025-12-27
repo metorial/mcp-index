@@ -1,0 +1,9 @@
+description: Facilitates integration between applications and large language
+  models by standardizing context sharing and connecting with external data
+  sources and tools. Provides functionality for tool and resource management,
+  enhancing workflow automation.
+skills:
+  - Integrate with files, databases, and APIs
+  - Manage tool and resource interactions
+  - Standardize context sharing between applications and LLMs
+  - Automate complex tasks
