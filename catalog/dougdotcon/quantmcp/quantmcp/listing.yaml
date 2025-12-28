@@ -1,0 +1,9 @@
+description: Connects AI assistants to quantum computers using Amazon Braket,
+  enabling the execution of quantum circuits and interpretation of results in a
+  standardized manner. Facilitates research in quantum computing through an
+  intuitive interface.
+skills:
+  - Execute quantum circuits
+  - Interpret quantum results
+  - Integrate AI with quantum computing
+  - Facilitate quantum research
