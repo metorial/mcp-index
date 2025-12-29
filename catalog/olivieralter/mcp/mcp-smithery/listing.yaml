@@ -1,0 +1,9 @@
+description: Integrate applications with external data sources and tools while
+  providing standardized context to Language Models. Facilitate automated tasks
+  and complex interactions through seamless SDKs and APIs.
+skills:
+  - Access files
+  - Connect to databases
+  - Interact with APIs
+  - Manage tool integrations
+  - Automate workflows
