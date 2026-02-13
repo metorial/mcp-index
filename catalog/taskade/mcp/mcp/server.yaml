@@ -1,0 +1,16 @@
+identifier: taskade/mcp/mcp
+repo:
+  provider: github.com
+  url: https://github.com/taskade/mcp
+  name: mcp
+  owner: taskade
+server:
+  subdirectory: /
+  name: Taskade MCP Server
+  description: Official Taskade MCP server with 62+ tools for managing workspaces,
+    projects, tasks, AI agents, templates, and media. Works with Claude, Cursor,
+    Windsurf, VS Code, and all MCP clients.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true
