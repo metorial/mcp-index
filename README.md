@@ -59,6 +59,8 @@
 
 - <img src="https://github.com/firecrawl.png?size=120" width="12px" height="12px" /> **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** - Integrates with Firecrawl for advanced web scraping capabilities including structured data extraction and batch processing, while supporting both cloud and self-hosted deployments. Provides features like automatic retries, rate limiting, and content analysis powered by LLMs.
 
+- <img src="https://github.com/wd041216-bit.png?size=120" width="12px" height="12px" /> **[Free Web Search Ultimate](https://github.com/wd041216-bit/free-web-search-ultimate)** - Zero-cost, privacy-first universal web search MCP server. Enforces a Search-First paradigm — instructs LLMs to retrieve real-time web information before answering factual questions, eliminating hallucinations. Supports text, news, images, books, and videos via DuckDuckGo. No API key required. Install: `pip install free-web-search-ultimate`
+
 - <img src="https://github.com/metoro-io.png?size=120" width="12px" height="12px" /> **[Metoro MCP Server](https://github.com/metoro-io/metoro-mcp-server)** - Interact with Kubernetes clusters through Metoro's APIs via the Claude Desktop App. Facilitates communication between AI models and Kubernetes management operations.
 
 - <img src="https://github.com/microsoft.png?size=120" width="12px" height="12px" /> **[Playwright Automation](https://github.com/microsoft/playwright-mcp)** - Automate web interactions on web pages using structured accessibility data for reliable navigation and data extraction without the need for visual models. Enables LLMs to perform actions by leveraging Playwright's accessibility tree.
