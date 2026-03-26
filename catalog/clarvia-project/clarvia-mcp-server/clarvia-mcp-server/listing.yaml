@@ -1,0 +1,27 @@
+identifier: clarvia-project/clarvia-mcp-server/clarvia-mcp-server
+repo:
+  provider: github.com
+  url: https://github.com/clarvia-project/scanner
+  name: scanner
+  owner: clarvia-project
+  subdirectory: mcp-server
+server:
+  subdirectory: mcp-server
+  name: Clarvia MCP Server
+  description: Search, compare, and score 15,400+ AI agent tools (MCP servers, APIs, CLIs, Skills) with AEO quality scores.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: false
+description: Clarvia is the directory for AI agent tools, scoring 15,400+ MCP
+  servers, APIs, CLIs, and Skills for agent readiness. The MCP server provides
+  24 tools for searching tools, comparing quality, checking vulnerabilities,
+  getting AEO scores, discovering trending tools, and monitoring demand signals.
+  Backed by real npm download counts, GitHub stars, and CVE data from OSV.dev.
+skills:
+  - Search 15,400+ MCP servers, APIs, CLIs, and Skills
+  - Compare tools by AEO quality score
+  - Check security vulnerabilities via OSV.dev CVE data
+  - Discover trending and popular tools
+  - Analyze demand signals and search trends
+  - Get structured tool metadata and capabilities
