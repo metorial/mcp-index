@@ -1,0 +1,17 @@
+identifier: connerlambden/bgpt-mcp/bgpt-mcp
+repo:
+  provider: github.com
+  url: https://github.com/connerlambden/bgpt-mcp
+  name: bgpt-mcp
+  owner: connerlambden
+server:
+  subdirectory: /
+  name: BGPT MCP
+  description: Remote MCP server for searching scientific papers with structured
+    experimental data extracted from full-text studies. Provides a search_papers
+    tool to query a database of papers built from raw experimental data. Supports
+    SSE and Streamable HTTP endpoints.
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: true
