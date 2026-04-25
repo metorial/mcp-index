@@ -1,0 +1,18 @@
+identifier: MohamedAbdallah-14/prompt-to-asset/prompt-to-asset
+repo:
+  provider: github.com
+  url: https://github.com/MohamedAbdallah-14/prompt-to-asset
+  name: prompt-to-asset
+  owner: MohamedAbdallah-14
+server:
+  subdirectory: /
+  name: Prompt to Asset
+  description: MCP server that generates production-ready visual assets (app icons,
+    favicons, OG images, logos, wordmarks) by routing requests across 30+ image
+    generation models. Three execution modes - inline SVG, external prompt, or full
+    API generation. Zero API key required for first run via Pollinations and Stable
+    Horde free tiers.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true
