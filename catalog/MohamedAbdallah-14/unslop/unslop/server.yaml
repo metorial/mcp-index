@@ -1,0 +1,17 @@
+identifier: MohamedAbdallah-14/unslop/unslop
+repo:
+  provider: github.com
+  url: https://github.com/MohamedAbdallah-14/unslop
+  name: unslop
+  owner: MohamedAbdallah-14
+server:
+  subdirectory: /
+  name: Unslop
+  description: CLI and MCP server that removes AI writing patterns from text -
+    tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused
+    vocabulary. Works with Claude Code, Codex, Gemini CLI, and Cursor. Five
+    intensity levels and a lint-only audit mode.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: false
