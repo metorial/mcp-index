@@ -1,0 +1,14 @@
+identifier: bortlesboat/bitcoin-mcp/bitcoin-mcp
+repo:
+  provider: github.com
+  url: https://github.com/Bortlesboat/bitcoin-mcp
+  name: bitcoin-mcp
+  owner: Bortlesboat
+server:
+  subdirectory: /
+  name: Bortlesboat Bitcoin MCP
+  description: Bitcoin MCP server with 49 tools for fee intelligence, mempool analysis, blocks, transactions, mining, price, supply, and AI agent Bitcoin workflows.
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: true
