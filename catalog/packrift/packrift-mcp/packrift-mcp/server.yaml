@@ -1,0 +1,16 @@
+identifier: packrift/packrift-mcp/packrift-mcp
+repo:
+  provider: github.com
+  url: https://github.com/Packrift/packrift-mcp
+  name: packrift-mcp
+  owner: Packrift
+server:
+  subdirectory: /
+  name: Packrift MCP Server
+  description: Search Packrift packaging supplies, retrieve live product pricing
+    and inventory context, recommend package options, estimate shipping, and
+    create Packrift cart URLs for ecommerce fulfillment workflows.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true

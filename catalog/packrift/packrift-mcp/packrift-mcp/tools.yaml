@@ -1,0 +1,110 @@
+tools:
+  - name: search_products
+    description: Search Packrift packaging products by keyword.
+    inputSchema:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: Product search query such as poly mailer, corrugated box, or label.
+        limit:
+          type: number
+          description: Optional maximum number of products to return.
+      additionalProperties: false
+  - name: get_product
+    description: Retrieve full product detail, variants, dimensions, and weight.
+    inputSchema:
+      type: object
+      required:
+        - handle
+      properties:
+        handle:
+          type: string
+          description: Packrift product handle.
+      additionalProperties: false
+  - name: get_pricing
+    description: Retrieve live unit pricing and line totals for variant IDs.
+    inputSchema:
+      type: object
+      required:
+        - variant_ids
+      properties:
+        variant_ids:
+          type: array
+          items:
+            type: string
+          description: Shopify variant IDs to price.
+        quantity:
+          type: number
+          description: Optional quantity for line-total pricing.
+      additionalProperties: false
+  - name: check_inventory
+    description: Check live inventory counts for variant IDs.
+    inputSchema:
+      type: object
+      required:
+        - variant_ids
+      properties:
+        variant_ids:
+          type: array
+          items:
+            type: string
+          description: Shopify variant IDs to check.
+      additionalProperties: false
+  - name: recommend_packaging
+    description: Recommend Packrift packaging options for item dimensions, weight, and use case.
+    inputSchema:
+      type: object
+      required:
+        - dims
+        - weight
+        - use_case
+      properties:
+        dims:
+          type: object
+          description: Item dimensions used for fit recommendations.
+        weight:
+          type: number
+          description: Item weight.
+        use_case:
+          type: string
+          description: Fulfillment use case such as apparel, ecommerce, cushioning, or labels.
+      additionalProperties: false
+  - name: get_shipping_estimate
+    description: Estimate shipping rates for a destination and cart items.
+    inputSchema:
+      type: object
+      required:
+        - zip
+        - country
+        - items
+      properties:
+        zip:
+          type: string
+          description: Destination postal or ZIP code.
+        country:
+          type: string
+          description: Destination country code or country name.
+        items:
+          type: array
+          description: Cart items to rate.
+      additionalProperties: false
+  - name: create_cart_url
+    description: Create a Packrift cart URL for selected items.
+    inputSchema:
+      type: object
+      required:
+        - items
+      properties:
+        items:
+          type: array
+          description: Cart line items.
+        discount_code:
+          type: string
+          description: Optional discount code.
+        ref:
+          type: string
+          description: Optional referral/source parameter.
+      additionalProperties: false
