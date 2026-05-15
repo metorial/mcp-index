@@ -1,0 +1,10 @@
+description: Provides a structured MCP interface for Packrift packaging supplies,
+  including product search, live pricing and inventory checks, package
+  recommendations, shipping estimates, and cart URL creation for ecommerce
+  fulfillment workflows.
+skills:
+  - Search Packrift packaging products by keyword
+  - Retrieve product details, dimensions, variants, and weights
+  - Check live pricing and inventory for selected variants
+  - Recommend packaging for item dimensions, weight, and use case
+  - Estimate shipping rates and create Packrift cart URLs
