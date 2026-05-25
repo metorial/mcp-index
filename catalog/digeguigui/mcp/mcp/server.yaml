@@ -1,0 +1,14 @@
+identifier: zhanghao0971/digeguigui
+repo:
+  provider: github.com
+  url: https://github.com/zhanghao0971/digeguigui
+  name: digeguigui
+  owner: zhanghao0971
+server:
+  subdirectory: /
+  name: Digeguigui (滴个龟龟)
+  description: Reptile & exotic pet knowledge — AI ID, genetics, health, pricing, provenance
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: false
