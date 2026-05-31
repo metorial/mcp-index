@@ -1,0 +1,17 @@
+identifier: thebrierfox/intuitek-ace/intuitek-ace
+repo:
+  provider: github.com
+  url: https://github.com/thebrierfox/intuitek-ace
+  name: intuitek-ace
+  owner: thebrierfox
+server:
+  subdirectory: /
+  name: YIELD INTELLIGENCE
+  description: Hosted remote MCP server for passive income analysis — live U.S.
+    Treasury rates, dividend ETFs, REITs, and preferred stocks. Optimizes
+    portfolio allocations to meet a monthly income target. No API key required.
+    Remote endpoint: https://api.intuitek.ai/yield/mcp
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: false
