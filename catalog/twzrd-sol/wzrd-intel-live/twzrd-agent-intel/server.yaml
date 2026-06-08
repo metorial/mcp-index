@@ -1,0 +1,16 @@
+identifier: twzrd-sol/wzrd-intel-live/twzrd-agent-intel
+repo:
+  provider: github.com
+  url: https://github.com/twzrd-sol/wzrd-intel-live
+  name: wzrd-intel-live
+  owner: twzrd-sol
+server:
+  subdirectory: /
+  name: TWZRD Agent Intel
+  description: On-chain trust scoring MCP server for AI agent wallets on Solana. Verify
+    agent identity and reputation before x402 micropayments. Provides score_agent,
+    preflight_check (free) and get_trust_receipt (paid, x402) tools.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true
