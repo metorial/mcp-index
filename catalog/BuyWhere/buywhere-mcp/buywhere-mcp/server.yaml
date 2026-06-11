@@ -1,0 +1,14 @@
+identifier: BuyWhere/buywhere-mcp/buywhere-mcp
+repo:
+  provider: github.com
+  url: https://github.com/BuyWhere/buywhere-mcp
+  name: buywhere-mcp
+  owner: BuyWhere
+server:
+  subdirectory: /
+  name: BuyWhere
+  description: Real-time product search and price comparison across 260K+ products in Southeast Asia.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: true
