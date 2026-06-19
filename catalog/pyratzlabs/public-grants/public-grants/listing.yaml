@@ -1,0 +1,13 @@
+description: Public Grants helps French startups find and apply for public
+  funding. Traditional grant consultants charge EUR 2,000-5,000 + success fees.
+  Public Grants offers free discovery and EUR 49/dossier. 21 tools + 3 guided
+  prompts cover company onboarding (SIRENE registry pre-fill, auto-enrichment +
+  customisable input), grant discovery (49 programmes with per-rule eligibility
+  from official legal texts), application drafting, and free strategic briefing.
+skills:
+  - Pre-fill company profiles from SIRENE (French business registry)
+  - Auto-enrich profiles from web and customise with your own inputs
+  - Search 49 grant programmes across Tech, Culture, Climate, EU, and Regional verticals
+  - Check eligibility with per-rule pass/fail/unknown from official legal texts (decrets, reglements BPI, instructions DGFiP)
+  - Draft, preview, validate, and export grant applications as .md or .docx
+  - Generate free strategic consultant briefing with funding potential, calendar, and action plan as downloadable PDF
