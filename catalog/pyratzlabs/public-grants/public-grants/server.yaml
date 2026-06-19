@@ -1,0 +1,17 @@
+identifier: pyratzlabs/public-grants/public-grants
+repo:
+  provider: gitlab.com
+  url: https://grants.mrchief.ai
+  name: public-grants
+  owner: pyratzlabs
+server:
+  subdirectory: /
+  name: Public Grants
+  description: French public grants advisor for startups and AI agents. 21 tools
+    for company onboarding, eligibility check across 49 programmes, application
+    drafting, and strategic briefing. EUR 49/dossier vs EUR 2,000-5,000 at
+    consulting firms. Remote endpoint: https://grants.mrchief.ai/mcp/
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: false
