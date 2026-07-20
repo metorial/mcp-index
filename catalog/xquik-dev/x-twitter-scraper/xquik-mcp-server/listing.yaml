@@ -1,0 +1,11 @@
+description: Xquik connects MCP clients to X data workflows through a remote
+  Streamable HTTP server. It supports tweet search, user lookup, follower export,
+  monitoring, webhooks, and confirmation-gated writes with OAuth 2.1 or Xquik
+  API-key authentication.
+skills:
+  - Search X posts
+  - Look up users and profiles
+  - Export followers and following
+  - Monitor accounts and keywords
+  - Explore Xquik REST endpoints
+  - Run confirmation-gated X actions

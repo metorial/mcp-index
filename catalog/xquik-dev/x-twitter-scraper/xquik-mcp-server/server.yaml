@@ -1,0 +1,16 @@
+identifier: xquik-dev/x-twitter-scraper/xquik-mcp-server
+repo:
+  provider: github.com
+  url: https://github.com/Xquik-dev/x-twitter-scraper
+  name: x-twitter-scraper
+  owner: Xquik-dev
+server:
+  subdirectory: /
+  name: Xquik MCP Server
+  description: Remote MCP server for X data workflows. Provides tweet search,
+    user lookup, follower export, monitoring, webhooks, and confirmation-gated
+    writes through the Xquik REST API.
+  flags:
+    isOfficial: true
+    isCommunity: false
+    isHostable: false
