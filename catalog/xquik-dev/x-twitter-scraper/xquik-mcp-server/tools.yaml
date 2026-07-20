@@ -1,0 +1,23 @@
+tools:
+  - name: explore
+    description: Search the Xquik API catalog before live calls.
+    inputSchema:
+      type: object
+      properties:
+        code:
+          type: string
+          maxLength: 4096
+          description: Bounded request function that filters spec.endpoints.
+      required:
+        - code
+  - name: xquik
+    description: Send confirmed requests to Xquik REST endpoints through MCP.
+    inputSchema:
+      type: object
+      properties:
+        code:
+          type: string
+          maxLength: 4096
+          description: Bounded request function that calls xquik.request.
+      required:
+        - code
