@@ -1,0 +1,12 @@
+description: Non-custodial USDC wallet on Base that an AI agent installs and runs
+  by itself. Per-transaction, per-day and per-counterparty spending limits plus a
+  destination allowlist are enforced in code between the agent's decision and the
+  signature, so no instruction in the context window can raise them.
+skills:
+  - Read the wallet's own address so it can be paid
+  - Read USDC and native balances, spend-so-far today and the daily limit
+  - Check whether a payment would be allowed, without sending anything
+  - Send USDC on Base, subject to every configured limit
+  - Read incoming payments off the network and record them as earnings
+  - Report earned against spent by category, with runway in days
+  - List what is outstanding and whose job each item is

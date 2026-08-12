@@ -1,0 +1,19 @@
+identifier: stipend-sh/stipend/stipend
+repo:
+  provider: github.com
+  url: https://github.com/stipend-sh/stipend
+  name: stipend
+  owner: stipend-sh
+server:
+  subdirectory: /
+  name: stipend
+  description: A non-custodial USDC wallet on Base for AI agents. The spending
+    limits are code on the path between deciding to pay and signing — per
+    transaction, per day, per counterparty, plus an absolute destination
+    allowlist — rather than a line in a system prompt. Runs as a local stdio MCP
+    server, `stipend mcp`, with seven tools. No tool reads, exports or derives
+    the private key, and no tool raises a limit.
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: false
