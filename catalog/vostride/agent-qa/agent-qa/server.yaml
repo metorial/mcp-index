@@ -1,0 +1,16 @@
+identifier: vostride/agent-qa/agent-qa
+repo:
+  provider: github.com
+  url: https://github.com/vostride/agent-qa
+  name: agent-qa
+  owner: vostride
+server:
+  subdirectory: /packages/mcp
+  name: agent-qa
+  description: Runs natural-language web and mobile tests, retains execution
+    memory across runs, and exposes authoring, execution, artifact, and triage
+    tools through the Model Context Protocol.
+  flags:
+    isOfficial: false
+    isCommunity: true
+    isHostable: false
